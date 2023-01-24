@@ -1,0 +1,18 @@
+.facebook__bg{
+    position: relative;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    width: 270px;
+    height: 270px;
+    background:blue;
+    border-radius: 54px;
+}
+.facebook__f{
+    position: absolute;
+    
+}
+.facebook__bg h1{
+    font-size: 250px;
+    color: white;
+}

@@ -1,0 +1,9 @@
+.calculator__body{
+    background-color: gray;
+}
+.calculator__body th{
+    border: 1px solid black;
+    padding: 2rem;
+    cursor:pointer;
+    
+}

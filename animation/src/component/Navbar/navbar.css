@@ -1,0 +1,18 @@
+.navbar{
+    display: flex;
+    height: 80vh;
+    justify-content: space-between;
+    
+}
+.menu ,.lang,.search{
+    padding: 10px 30px;
+    font-size: 20px;
+}
+.navbar .menu{
+    margin-right: auto;
+}
+.navbar .lang{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}

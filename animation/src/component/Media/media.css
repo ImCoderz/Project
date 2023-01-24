@@ -1,0 +1,13 @@
+.media ul{
+    transform: rotate(-90deg);
+    position: absolute;
+    bottom: 250px;
+    left: -140px;
+}
+.media ul li{
+    font-size:10px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    display: inline-block;
+    padding: 0 30px;
+}

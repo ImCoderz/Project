@@ -1,0 +1,32 @@
+.calculator__head{
+    background-color: gray;
+}
+.calculator__head-h2{
+    padding: 1rem;
+    color: black;
+    background-color: silver;
+    padding: 1rem;
+    margin-left: 4px;
+    width: 295px ;
+    display: flex;
+}
+.calculator__body{
+    background-color: gray;
+}
+.calculator__body th{
+    border: 1px solid black;
+    padding: 2rem;
+    cursor:pointer;
+    font-size: 18px;
+}
+.calculator__body th:hover{
+    border: 1px solid white;
+    padding: 2rem;
+    cursor:pointer;   
+}
+.orange{
+   background-color:orange;
+}
+.green{
+    background-color:green;
+}

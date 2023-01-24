@@ -1,0 +1,35 @@
+.insta__bg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 270px;
+    background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+    border-radius: 54px;
+}
+.insta__inter1{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border: 18px solid white;
+    border-radius: 54px;
+}
+.insta__inter2{
+    border: 18px solid white;
+    width: 110px;
+    height: 110px;
+    border-radius: 100px;
+}
+.insta__inter1::after{
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: white;
+    border-radius: 50%;
+    top: 15px;
+    right: 15px;
+}

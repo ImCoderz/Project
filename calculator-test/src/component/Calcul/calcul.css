@@ -1,0 +1,20 @@
+.calculator__head{
+    background-color: gray;
+}
+.calculator__head-h2{
+    padding: 1rem;
+    color: black;
+    background-color: silver;
+    width: 295px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.calculator__body{
+    background-color: gray;
+}
+.calculator__body th{
+    border: 1px solid black;
+    padding: 2rem;
+    cursor:pointer;   
+}

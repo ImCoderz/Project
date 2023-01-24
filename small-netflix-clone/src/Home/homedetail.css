@@ -1,0 +1,58 @@
+.detail__poster {
+    width: 350px;
+    min-height: 200px;
+}
+.detail__image{
+     
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    position: relative;
+    padding-top: 60px;
+    padding-left: 20px;
+}
+.detail__text{
+    color: white;
+    width: 60%;
+    
+}
+.detail__text h1 ,h2,h3,p{
+    padding: 1rem 0rem;
+}
+.h1{
+    font-size: 45px;
+    color: white;
+    text-shadow: 0px 0px 50px red;
+    
+}
+.premier{
+    display: none;
+}
+.detail__text p{
+    width: 60%;
+    font-size: 20px;
+}
+.detail__text span{
+    color: yellow;
+    text-shadow: 0px 0px 50px yellow;
+}
+@media screen and (max-width:900px) {
+    .detail__image{
+        flex-direction: column;
+        margin: auto;
+        justify-content: center;
+    }
+    .detail__text{
+        width: 100%;
+        
+    }
+    .detail__text p{
+        width: 100%;
+    }
+    .premier{
+        display: block;
+    }
+    .deuxieme{
+        display: none;
+    }
+}
